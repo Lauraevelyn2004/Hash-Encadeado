@@ -1,16 +1,17 @@
 # Atividade: Implementando Operações em HashMap com Hash Encadeado
 
-Este projeto é uma implementação da estrutura de dados **Tabela Hash com Encadeamento** em C++. Ele foi desenvolvido como parte dos estudos sobre técnicas de hashing e gerenciamento eficiente de dados utilizando listas encadeadas para tratamento de colisões.
+Este projeto é uma implementação de uma **tabela hash com tratamento de colisões por encadeamento** em Java. Foi desenvolvido com o objetivo de praticar conceitos de estruturas de dados, especialmente hashing e listas encadeadas.
 
-## 🔍 Descrição
+## 📚 Descrição
 
-A tabela hash é uma estrutura que permite armazenar e acessar dados de forma eficiente, geralmente em tempo constante O(1). Neste projeto, utilizamos **encadeamento (chaining)** como técnica para resolver colisões — ou seja, quando dois elementos possuem o mesmo índice hash.
+A **tabela hash** é uma estrutura eficiente para armazenar e recuperar dados. Neste projeto, utiliza-se o **encadeamento (chaining)** como método de resolução de colisões. Cada posição da tabela armazena uma **lista encadeada** com os elementos que compartilham o mesmo índice hash.
 
-Cada posição da tabela contém uma **lista encadeada** que armazena os elementos que colidiram naquele índice.
-
-## 🧠 Funcionalidades
+## ⚙️ Funcionalidades
 
 - Inserção de elementos
 - Remoção de elementos
 - Busca de elementos
-- Impressão da tabela hash
+- Alteração de elementos
+
+
+
